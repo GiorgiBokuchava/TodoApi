@@ -55,7 +55,7 @@ if (app.Environment.IsDevelopment())
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
         options.RoutePrefix = string.Empty;
 
-        // To serve the custom CSS file, uncomment the line below and ensure the file exists at the specified path.
+        // To serve the custom CSS file, uncomment tthe line below and ensure the file exists at the specified path.
         //options.InjectStylesheet("/swagger-ui/custom.css");
     });
 }
